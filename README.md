@@ -69,6 +69,8 @@
 
 Пиксели со значением, превысившим `threshold`, окрашиваются в белый, остальные – в черный.
 
+<img src="https://github.com/Tasher239/ImageProcessor/blob/main/test_script/data/lenna_edge.bmp" width="200"/>
+
 #### Gaussian Blur (-blur sigma)
 [Гауссово размытие](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
 параметр – сигма.
