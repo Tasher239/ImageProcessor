@@ -1,0 +1,3 @@
+C:/Users/Хороший человек/Documents/coding/plusis/cmake-build-debug/CMakeFiles/image_processor.dir
+C:/Users/Хороший человек/Documents/coding/plusis/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Хороший человек/Documents/coding/plusis/cmake-build-debug/CMakeFiles/rebuild_cache.dir

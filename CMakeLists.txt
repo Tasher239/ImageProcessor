@@ -1,0 +1,41 @@
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(
+    image_processor
+    image_processor.cpp
+        include/data/color.h
+        include/data/image.h
+        src/data/color.cpp
+        src/data/image.cpp
+        include/utils/args_processor.h
+        src/utils/args_processor.cpp
+        include/io/image_format.h
+        src/io/bmp.cpp
+        include/io/bmp.h
+        include/utils/abstract_filter_factory.h
+        src/utils/pipeline.cpp
+        include/utils/pipeline.h
+        include/filters/filter.h
+        include/filters/point_filter.h
+        include/filters/negative.h
+        src/filters/negative.cpp
+        src/filters/point_filter.cpp
+        include/filters/grayscale.h
+        src/filters/grayscale.cpp
+        src/filters/crop.cpp
+        include/filters/crop.h
+        include/filters/sharp.h
+        src/filters/sharp.cpp
+        include/filters/edge_detection.h
+        src/filters/edge_detection.cpp
+        src/filters/my_filter.cpp
+        include/filters/my_filter.h
+        src/filters/gaussian_blur.cpp
+        include/filters/gaussian_blur.h
+        include/filters/matrix_filter.h
+        src/filters/matrix_filter.cpp
+        include/utils/exceptions.h
+        src/utils/exceptions.cpp
+        src/filters/glass_distortion.cpp
+        include/filters/glass_distortion.h
+)
