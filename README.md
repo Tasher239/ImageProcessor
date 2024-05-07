@@ -36,6 +36,7 @@
 Обрезает изображение до заданных ширины и высоты. Используется верхняя левая часть изображения.
 
 Если запрошенные ширина или высота превышают размеры исходного изображения, выдается доступная часть изображения.
+
 <img src="https://github.com/Tasher239/ImageProcessor/blob/main/test_script/data/lenna_crop.bmp" width="200"/>
 
 
@@ -43,15 +44,23 @@
 Преобразует изображение в оттенки серого по формуле
 <img src="https://latex.codecogs.com/svg.image?R'%20=%20G'%20=%20B'%20=0.299%20R%20&plus;%200%20.587%20G%20&plus;%200%20.%20114%20B" width="200" />
 
+<img src="https://github.com/Tasher239/ImageProcessor/blob/main/test_script/data/lenna_gs.bmp" width="200"/>
+
+
 #### Negative (-neg)
 Преобразует изображение в негатив по формуле
 
 ![encoding](https://latex.codecogs.com/svg.image?R'%20=%201%20-%20R,%20G'%20=%201%20-%20G,%20B'%20=%201%20-%20B)
 
+<img src="https://github.com/Tasher239/ImageProcessor/blob/main/test_script/data/lenna_neg.bmp" width="200"/>
+
 #### Sharpening (-sharp)
 Повышение резкости. Достигается применением матрицы
 
 ![encoding](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7D%20&%20-1%20&%20%20%5C%5C-1%20&%205%20&%20-1%20%5C%5C%20&%20-1%20&%20%20%5C%5C%5Cend%7Bbmatrix%7D)
+
+<img src="https://github.com/Tasher239/ImageProcessor/blob/main/test_script/data/lenna_sharp.bmp" width="200"/>
+
 
 #### Edge Detection (-edge threshold)
 Выделение границ. Изображение переводится в оттенки серого и применяется матрица
